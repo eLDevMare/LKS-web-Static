@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: space-between;
+    color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.navbar h4 {
+    font-weight: 100;
+    padding: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.list {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign {
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 5px;
+    color: blue;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.welcome {
+    color: white;
+  text-decoration: none;
+}
+
+
+.dashboard {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.073);
+}
+
+
+.dashboard-in{
+    padding: 3.5rem;
+}
+
+.dashboard-in h1{
+    font-weight: 300;
+}
+
+.dashboard-in > p {
+    margin-top: 0.8rem;
+    color: gray;
+}
+
+
+.dashboard-bottom{
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.dashboard-bottom .blue {
+    color: rgba(0, 102, 255, 0.65);
+}
+
+.input {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+
+.input .input-in input{
+    width: 400px;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: rgb(60, 60, 60);
+}
+
+
+
+
+
+

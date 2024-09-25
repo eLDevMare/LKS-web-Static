@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: space-between;
+    color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.navbar h4 {
+    font-weight: 100;
+    padding: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.list {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign {
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 5px;
+    color: blue;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.welcome {
+    color: white;
+  text-decoration: none;
+}
+
+
+.dashboard {
+    background-color: rgba(128, 128, 128, 0.073);
+}
+
+
+.dashboard h1{
+    padding: 3.5rem;
+    font-weight: 300;
+}
+
+.form {
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+}
+
+.input input {
+    width: 400px;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.66);
+    margin-top: 0.5rem;
+}
+
+.input textarea {
+    width: 400px;
+    height: 8rem;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.66);
+    margin-top: 0.5rem;
+}
+
+.input input:focus {
+    box-shadow: blue;
+    box-sizing: border-box;
+}
+
+.text {
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgba(95, 94, 94, 0.888);
+    width: 350px;
+    margin-top: 0.5rem;
+}
+
+
+.input label {
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgba(128, 128, 128, 0.888);
+}
+
+.form button{
+    padding: 0.7rem 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.2rem;
+}
+
+
